@@ -1,0 +1,219 @@
+2025-07-08 20:45:25,014 - DEBUG - close.started
+2025-07-08 20:45:25,016 - DEBUG - close.complete
+2025-07-08 20:45:40,062 - INFO - Processing user input: Is vim bar present
+2025-07-08 20:45:40,062 - INFO - === IMAGE ANALYSIS START ===
+2025-07-08 20:45:40,062 - INFO - Query: Is vim bar present
+2025-07-08 20:45:40,062 - INFO - Uploaded image path: C:\Users\ashwi\AppData\Local\Temp\tmpyoa563dx.png
+2025-07-08 20:45:40,062 - INFO - File exists: True
+2025-07-08 20:45:40,062 - INFO - Image file size: 871193 bytes
+2025-07-08 20:45:40,077 - INFO - Calling analyze_video_for_query...
+2025-07-08 20:45:41,191 - DEBUG - Sending HTTP Request: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15
+2025-07-08 20:45:41,193 - DEBUG - connect_tcp.started host='gpt-4o-intern.openai.azure.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-07-08 20:45:41,687 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001BDD7B2A3F0>
+2025-07-08 20:45:41,688 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001BDD7BAD750> server_hostname='gpt-4o-intern.openai.azure.com' timeout=5.0
+2025-07-08 20:45:42,285 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001BDD68E6C60>
+2025-07-08 20:45:42,285 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-07-08 20:45:42,285 - DEBUG - send_request_headers.complete
+2025-07-08 20:45:42,285 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-07-08 20:45:44,193 - DEBUG - send_request_body.complete
+2025-07-08 20:45:44,197 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-07-08 20:45:48,075 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Length', b'681'), (b'Content-Type', b'application/json; charset=utf-8'), (b'request-id', b'4d0cba96-c150-48ef-9c08-dbb8f7842dd6'), (b'apim-request-id', b'4d0cba96-c150-48ef-9c08-dbb8f7842dd6'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'x-content-type-options', b'nosniff'), (b'x-ms-region', b'East US'), (b'x-ratelimit-remaining-requests', b'1199'), (b'x-ratelimit-limit-requests', b'1200'), (b'x-ratelimit-remaining-tokens', b'118733'), (b'x-ratelimit-limit-tokens', b'120000'), (b'azureml-model-session', b'd120-20250621004113'), (b'cmp-upstream-response-duration', b'1240'), (b'x-accel-buffering', b'no'), (b'x-ms-rai-invoked', b'true'), (b'x-request-id', b'874a7d66-5bfd-439f-ac27-8bc926489681'), (b'api-supported-versions', b'1'), (b'x-envoy-upstream-service-time', b'1676'), (b'x-ms-deployment-name', b'gpt-4o-08-06'), (b'Date', b'Tue, 08 Jul 2025 15:15:47 GMT')])
+2025-07-08 20:45:48,080 - INFO - HTTP Request: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-07-08 20:45:48,080 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-07-08 20:45:48,080 - DEBUG - receive_response_body.complete
+2025-07-08 20:45:48,080 - DEBUG - response_closed.started
+2025-07-08 20:45:48,080 - DEBUG - response_closed.complete
+2025-07-08 20:45:48,080 - DEBUG - HTTP Response: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15 "200 OK" Headers({'content-length': '681', 'content-type': 'application/json; charset=utf-8', 'request-id': '4d0cba96-c150-48ef-9c08-dbb8f7842dd6', 'apim-request-id': '4d0cba96-c150-48ef-9c08-dbb8f7842dd6', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'x-ms-region': 'East US', 'x-ratelimit-remaining-requests': '1199', 'x-ratelimit-limit-requests': '1200', 'x-ratelimit-remaining-tokens': '118733', 'x-ratelimit-limit-tokens': '120000', 'azureml-model-session': 'd120-20250621004113', 'cmp-upstream-response-duration': '1240', 'x-accel-buffering': 'no', 'x-ms-rai-invoked': 'true', 'x-request-id': '874a7d66-5bfd-439f-ac27-8bc926489681', 'api-supported-versions': '1', 'x-envoy-upstream-service-time': '1676', 'x-ms-deployment-name': 'gpt-4o-08-06', 'date': 'Tue, 08 Jul 2025 15:15:47 GMT'})
+2025-07-08 20:45:48,080 - DEBUG - request_id: 874a7d66-5bfd-439f-ac27-8bc926489681
+2025-07-08 20:45:48,091 - DEBUG - Sending HTTP Request: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15
+2025-07-08 20:45:48,091 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-07-08 20:45:48,091 - DEBUG - send_request_headers.complete
+2025-07-08 20:45:48,091 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-07-08 20:45:48,091 - DEBUG - send_request_body.complete
+2025-07-08 20:45:48,103 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-07-08 20:45:49,257 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Length', b'684'), (b'Content-Type', b'application/json'), (b'apim-request-id', b'055a82b3-2085-47e3-b667-6fdf948c8b37'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'x-content-type-options', b'nosniff'), (b'x-ms-region', b'East US'), (b'x-ratelimit-remaining-requests', b'1198'), (b'x-ratelimit-limit-requests', b'1200'), (b'x-ratelimit-remaining-tokens', b'118519'), (b'x-ratelimit-limit-tokens', b'120000'), (b'azureml-model-session', b'd121-20250514032134'), (b'cmp-upstream-response-duration', b'782'), (b'x-accel-buffering', b'no'), (b'x-ms-rai-invoked', b'true'), (b'x-request-id', b'4600cfb6-09bf-4c74-b875-02e692a113b4'), (b'x-ms-deployment-name', b'gpt-4o-08-06'), (b'Date', b'Tue, 08 Jul 2025 15:15:48 GMT')])
+2025-07-08 20:45:49,257 - INFO - HTTP Request: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-07-08 20:45:49,257 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-07-08 20:45:49,257 - DEBUG - receive_response_body.complete
+2025-07-08 20:45:49,257 - DEBUG - response_closed.started
+2025-07-08 20:45:49,273 - DEBUG - response_closed.complete
+2025-07-08 20:45:49,273 - DEBUG - HTTP Response: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15 "200 OK" Headers({'content-length': '684', 'content-type': 'application/json', 'apim-request-id': '055a82b3-2085-47e3-b667-6fdf948c8b37', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'x-ms-region': 'East US', 'x-ratelimit-remaining-requests': '1198', 'x-ratelimit-limit-requests': '1200', 'x-ratelimit-remaining-tokens': '118519', 'x-ratelimit-limit-tokens': '120000', 'azureml-model-session': 'd121-20250514032134', 'cmp-upstream-response-duration': '782', 'x-accel-buffering': 'no', 'x-ms-rai-invoked': 'true', 'x-request-id': '4600cfb6-09bf-4c74-b875-02e692a113b4', 'x-ms-deployment-name': 'gpt-4o-08-06', 'date': 'Tue, 08 Jul 2025 15:15:48 GMT'})
+2025-07-08 20:45:49,273 - DEBUG - request_id: 4600cfb6-09bf-4c74-b875-02e692a113b4
+2025-07-08 20:45:50,287 - DEBUG - Sending HTTP Request: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15
+2025-07-08 20:45:50,287 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-07-08 20:45:50,287 - DEBUG - send_request_headers.complete
+2025-07-08 20:45:50,287 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-07-08 20:46:03,062 - DEBUG - send_request_body.complete
+2025-07-08 20:46:03,063 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-07-08 20:46:15,395 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Length', b'695'), (b'Content-Type', b'application/json; charset=utf-8'), (b'request-id', b'34bb49d7-2dd8-4efd-a9a0-9677a53648b9'), (b'apim-request-id', b'34bb49d7-2dd8-4efd-a9a0-9677a53648b9'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'x-content-type-options', b'nosniff'), (b'x-ms-region', b'East US'), (b'x-ratelimit-remaining-requests', b'1197'), (b'x-ratelimit-limit-requests', b'1200'), (b'x-ratelimit-remaining-tokens', b'117261'), (b'x-ratelimit-limit-tokens', b'120000'), (b'azureml-model-session', b'd122-20250621053100'), (b'cmp-upstream-response-duration', b'1295'), (b'x-accel-buffering', b'no'), (b'x-ms-rai-invoked', b'true'), (b'x-request-id', b'03ee69d8-ed69-4870-8f18-17d51b418f04'), (b'api-supported-versions', b'1'), (b'x-envoy-upstream-service-time', b'1891'), (b'x-ms-deployment-name', b'gpt-4o-08-06'), (b'Date', b'Tue, 08 Jul 2025 15:16:14 GMT')])
+2025-07-08 20:46:15,397 - INFO - HTTP Request: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-07-08 20:46:15,397 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-07-08 20:46:15,398 - DEBUG - receive_response_body.complete
+2025-07-08 20:46:15,399 - DEBUG - response_closed.started
+2025-07-08 20:46:15,399 - DEBUG - response_closed.complete
+2025-07-08 20:46:15,399 - DEBUG - HTTP Response: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15 "200 OK" Headers({'content-length': '695', 'content-type': 'application/json; charset=utf-8', 'request-id': '34bb49d7-2dd8-4efd-a9a0-9677a53648b9', 'apim-request-id': '34bb49d7-2dd8-4efd-a9a0-9677a53648b9', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'x-ms-region': 'East US', 'x-ratelimit-remaining-requests': '1197', 'x-ratelimit-limit-requests': '1200', 'x-ratelimit-remaining-tokens': '117261', 'x-ratelimit-limit-tokens': '120000', 'azureml-model-session': 'd122-20250621053100', 'cmp-upstream-response-duration': '1295', 'x-accel-buffering': 'no', 'x-ms-rai-invoked': 'true', 'x-request-id': '03ee69d8-ed69-4870-8f18-17d51b418f04', 'api-supported-versions': '1', 'x-envoy-upstream-service-time': '1891', 'x-ms-deployment-name': 'gpt-4o-08-06', 'date': 'Tue, 08 Jul 2025 15:16:14 GMT'})
+2025-07-08 20:46:15,400 - DEBUG - request_id: 03ee69d8-ed69-4870-8f18-17d51b418f04
+2025-07-08 20:46:15,409 - DEBUG - Sending HTTP Request: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15
+2025-07-08 20:46:15,410 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-07-08 20:46:15,410 - DEBUG - send_request_headers.complete
+2025-07-08 20:46:15,411 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-07-08 20:46:15,411 - DEBUG - send_request_body.complete
+2025-07-08 20:46:15,411 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-07-08 20:46:16,688 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Length', b'931'), (b'Content-Type', b'application/json'), (b'apim-request-id', b'ba87e2df-4fe2-4b58-9f86-8315169130d0'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'x-content-type-options', b'nosniff'), (b'x-ms-region', b'East US'), (b'x-ratelimit-remaining-requests', b'1196'), (b'x-ratelimit-limit-requests', b'1200'), (b'x-ratelimit-remaining-tokens', b'116895'), (b'x-ratelimit-limit-tokens', b'120000'), (b'azureml-model-session', b'd125-20250621110946'), (b'cmp-upstream-response-duration', b'804'), (b'x-accel-buffering', b'no'), (b'x-ms-rai-invoked', b'true'), (b'x-request-id', b'fc6262fd-19c6-47c0-94b4-05f6bb3ac318'), (b'x-ms-deployment-name', b'gpt-4o-08-06'), (b'Date', b'Tue, 08 Jul 2025 15:16:16 GMT')])
+2025-07-08 20:46:16,689 - INFO - HTTP Request: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-07-08 20:46:16,689 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-07-08 20:46:16,689 - DEBUG - receive_response_body.complete
+2025-07-08 20:46:16,689 - DEBUG - response_closed.started
+2025-07-08 20:46:16,689 - DEBUG - response_closed.complete
+2025-07-08 20:46:16,689 - DEBUG - HTTP Response: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15 "200 OK" Headers({'content-length': '931', 'content-type': 'application/json', 'apim-request-id': 'ba87e2df-4fe2-4b58-9f86-8315169130d0', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'x-ms-region': 'East US', 'x-ratelimit-remaining-requests': '1196', 'x-ratelimit-limit-requests': '1200', 'x-ratelimit-remaining-tokens': '116895', 'x-ratelimit-limit-tokens': '120000', 'azureml-model-session': 'd125-20250621110946', 'cmp-upstream-response-duration': '804', 'x-accel-buffering': 'no', 'x-ms-rai-invoked': 'true', 'x-request-id': 'fc6262fd-19c6-47c0-94b4-05f6bb3ac318', 'x-ms-deployment-name': 'gpt-4o-08-06', 'date': 'Tue, 08 Jul 2025 15:16:16 GMT'})
+2025-07-08 20:46:16,689 - DEBUG - request_id: fc6262fd-19c6-47c0-94b4-05f6bb3ac318
+2025-07-08 20:46:16,697 - INFO - analyze_video_for_query returned: <class 'dict'>
+2025-07-08 20:46:16,700 - INFO - Result keys: dict_keys(['final_summary', 'timestamps', 'product_name'])
+2025-07-08 20:46:16,701 - INFO - Result content: {'final_summary': 'Yes, the Vim bar is present on the shelf. It is visible on the lower shelf in yellow packaging.\n\nproduct_name = Vim Bar', 'timestamps': [0], 'product_name': 'Vim Bar'}...
+2025-07-08 20:46:16,702 - INFO - Processing successful result...
+2025-07-08 21:06:07,661 - DEBUG - close.started
+2025-07-08 21:06:07,667 - DEBUG - close.complete
+2025-07-08 21:06:20,419 - INFO - Processing user input: Is vim bar present
+2025-07-08 21:06:20,419 - INFO - === IMAGE ANALYSIS START ===
+2025-07-08 21:06:20,419 - INFO - Query: Is vim bar present
+2025-07-08 21:06:20,421 - INFO - Uploaded image path: C:\Users\ashwi\AppData\Local\Temp\tmpcr99ec9q.png
+2025-07-08 21:06:20,421 - INFO - File exists: True
+2025-07-08 21:06:20,423 - INFO - Image file size: 871193 bytes
+2025-07-08 21:06:20,425 - INFO - Calling analyze_video_for_query...
+2025-07-08 21:06:21,689 - DEBUG - Sending HTTP Request: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15
+2025-07-08 21:06:21,689 - DEBUG - connect_tcp.started host='gpt-4o-intern.openai.azure.com' port=443 local_address=None timeout=30 socket_options=None
+2025-07-08 21:06:22,094 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001BDD7B28A10>
+2025-07-08 21:06:22,102 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001BDD7BAC6D0> server_hostname='gpt-4o-intern.openai.azure.com' timeout=30
+2025-07-08 21:06:22,614 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001BDD7B28FE0>
+2025-07-08 21:06:22,614 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-07-08 21:06:22,614 - DEBUG - send_request_headers.complete
+2025-07-08 21:06:22,623 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-07-08 21:06:23,407 - DEBUG - send_request_body.complete
+2025-07-08 21:06:23,411 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-07-08 21:06:25,767 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Length', b'685'), (b'Content-Type', b'application/json; charset=utf-8'), (b'request-id', b'02cb0a74-07d2-47b8-974b-0d6ee2819df2'), (b'apim-request-id', b'02cb0a74-07d2-47b8-974b-0d6ee2819df2'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'x-content-type-options', b'nosniff'), (b'x-ms-region', b'East US'), (b'x-ratelimit-remaining-requests', b'1199'), (b'x-ratelimit-limit-requests', b'1200'), (b'x-ratelimit-remaining-tokens', b'118733'), (b'x-ratelimit-limit-tokens', b'120000'), (b'azureml-model-session', b'd120-20250514015755'), (b'cmp-upstream-response-duration', b'1382'), (b'x-accel-buffering', b'no'), (b'x-ms-rai-invoked', b'true'), (b'x-request-id', b'2ce64311-03ba-46fe-8788-e79a971d8bec'), (b'api-supported-versions', b'1'), (b'x-envoy-upstream-service-time', b'1875'), (b'x-ms-deployment-name', b'gpt-4o-08-06'), (b'Date', b'Tue, 08 Jul 2025 15:36:25 GMT')])
+2025-07-08 21:06:25,767 - INFO - HTTP Request: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-07-08 21:06:25,767 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-07-08 21:06:25,767 - DEBUG - receive_response_body.complete
+2025-07-08 21:06:25,767 - DEBUG - response_closed.started
+2025-07-08 21:06:25,767 - DEBUG - response_closed.complete
+2025-07-08 21:06:25,767 - DEBUG - HTTP Response: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15 "200 OK" Headers({'content-length': '685', 'content-type': 'application/json; charset=utf-8', 'request-id': '02cb0a74-07d2-47b8-974b-0d6ee2819df2', 'apim-request-id': '02cb0a74-07d2-47b8-974b-0d6ee2819df2', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'x-ms-region': 'East US', 'x-ratelimit-remaining-requests': '1199', 'x-ratelimit-limit-requests': '1200', 'x-ratelimit-remaining-tokens': '118733', 'x-ratelimit-limit-tokens': '120000', 'azureml-model-session': 'd120-20250514015755', 'cmp-upstream-response-duration': '1382', 'x-accel-buffering': 'no', 'x-ms-rai-invoked': 'true', 'x-request-id': '2ce64311-03ba-46fe-8788-e79a971d8bec', 'api-supported-versions': '1', 'x-envoy-upstream-service-time': '1875', 'x-ms-deployment-name': 'gpt-4o-08-06', 'date': 'Tue, 08 Jul 2025 15:36:25 GMT'})
+2025-07-08 21:06:25,767 - DEBUG - request_id: 2ce64311-03ba-46fe-8788-e79a971d8bec
+2025-07-08 21:06:25,786 - DEBUG - Sending HTTP Request: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15
+2025-07-08 21:06:25,786 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-07-08 21:06:25,786 - DEBUG - send_request_headers.complete
+2025-07-08 21:06:25,790 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-07-08 21:06:25,790 - DEBUG - send_request_body.complete
+2025-07-08 21:06:25,791 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-07-08 21:06:26,505 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Length', b'669'), (b'Content-Type', b'application/json'), (b'apim-request-id', b'9a8f8dda-fdc9-4f99-b8a9-05f97f402b77'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'x-content-type-options', b'nosniff'), (b'x-ms-region', b'East US'), (b'x-ratelimit-remaining-requests', b'1198'), (b'x-ratelimit-limit-requests', b'1200'), (b'x-ratelimit-remaining-tokens', b'118518'), (b'x-ratelimit-limit-tokens', b'120000'), (b'azureml-model-session', b'd129-20250514193450'), (b'cmp-upstream-response-duration', b'403'), (b'x-accel-buffering', b'no'), (b'x-ms-rai-invoked', b'true'), (b'x-request-id', b'6c9c174c-ba73-4875-adfc-9df49b9439b0'), (b'x-ms-deployment-name', b'gpt-4o-08-06'), (b'Date', b'Tue, 08 Jul 2025 15:36:26 GMT')])
+2025-07-08 21:06:26,505 - INFO - HTTP Request: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-07-08 21:06:26,509 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-07-08 21:06:26,511 - DEBUG - receive_response_body.complete
+2025-07-08 21:06:26,511 - DEBUG - response_closed.started
+2025-07-08 21:06:26,511 - DEBUG - response_closed.complete
+2025-07-08 21:06:26,511 - DEBUG - HTTP Response: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15 "200 OK" Headers({'content-length': '669', 'content-type': 'application/json', 'apim-request-id': '9a8f8dda-fdc9-4f99-b8a9-05f97f402b77', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'x-ms-region': 'East US', 'x-ratelimit-remaining-requests': '1198', 'x-ratelimit-limit-requests': '1200', 'x-ratelimit-remaining-tokens': '118518', 'x-ratelimit-limit-tokens': '120000', 'azureml-model-session': 'd129-20250514193450', 'cmp-upstream-response-duration': '403', 'x-accel-buffering': 'no', 'x-ms-rai-invoked': 'true', 'x-request-id': '6c9c174c-ba73-4875-adfc-9df49b9439b0', 'x-ms-deployment-name': 'gpt-4o-08-06', 'date': 'Tue, 08 Jul 2025 15:36:26 GMT'})
+2025-07-08 21:06:26,516 - DEBUG - request_id: 6c9c174c-ba73-4875-adfc-9df49b9439b0
+2025-07-08 21:06:27,539 - DEBUG - Sending HTTP Request: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15
+2025-07-08 21:06:27,539 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-07-08 21:06:27,541 - DEBUG - send_request_headers.complete
+2025-07-08 21:06:27,541 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-07-08 21:06:27,949 - DEBUG - send_request_body.complete
+2025-07-08 21:06:27,949 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-07-08 21:06:31,504 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Length', b'710'), (b'Content-Type', b'application/json; charset=utf-8'), (b'request-id', b'47757d41-b687-468d-9009-bef916dd89b6'), (b'apim-request-id', b'47757d41-b687-468d-9009-bef916dd89b6'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'x-content-type-options', b'nosniff'), (b'x-ms-region', b'East US'), (b'x-ratelimit-remaining-requests', b'1197'), (b'x-ratelimit-limit-requests', b'1200'), (b'x-ratelimit-remaining-tokens', b'117260'), (b'x-ratelimit-limit-tokens', b'120000'), (b'azureml-model-session', b'd130-20250621164136'), (b'cmp-upstream-response-duration', b'1605'), (b'x-accel-buffering', b'no'), (b'x-ms-rai-invoked', b'true'), (b'x-request-id', b'89b83db0-f066-4903-aab7-26991b11c021'), (b'api-supported-versions', b'1'), (b'x-envoy-upstream-service-time', b'2204'), (b'x-ms-deployment-name', b'gpt-4o-08-06'), (b'Date', b'Tue, 08 Jul 2025 15:36:31 GMT')])
+2025-07-08 21:06:31,506 - INFO - HTTP Request: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-07-08 21:06:31,507 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-07-08 21:06:31,510 - DEBUG - receive_response_body.complete
+2025-07-08 21:06:31,510 - DEBUG - response_closed.started
+2025-07-08 21:06:31,510 - DEBUG - response_closed.complete
+2025-07-08 21:06:31,512 - DEBUG - HTTP Response: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15 "200 OK" Headers({'content-length': '710', 'content-type': 'application/json; charset=utf-8', 'request-id': '47757d41-b687-468d-9009-bef916dd89b6', 'apim-request-id': '47757d41-b687-468d-9009-bef916dd89b6', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'x-ms-region': 'East US', 'x-ratelimit-remaining-requests': '1197', 'x-ratelimit-limit-requests': '1200', 'x-ratelimit-remaining-tokens': '117260', 'x-ratelimit-limit-tokens': '120000', 'azureml-model-session': 'd130-20250621164136', 'cmp-upstream-response-duration': '1605', 'x-accel-buffering': 'no', 'x-ms-rai-invoked': 'true', 'x-request-id': '89b83db0-f066-4903-aab7-26991b11c021', 'api-supported-versions': '1', 'x-envoy-upstream-service-time': '2204', 'x-ms-deployment-name': 'gpt-4o-08-06', 'date': 'Tue, 08 Jul 2025 15:36:31 GMT'})
+2025-07-08 21:06:31,512 - DEBUG - request_id: 89b83db0-f066-4903-aab7-26991b11c021
+2025-07-08 21:06:31,532 - DEBUG - Sending HTTP Request: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15
+2025-07-08 21:06:31,536 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-07-08 21:06:31,536 - DEBUG - send_request_headers.complete
+2025-07-08 21:06:31,538 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-07-08 21:06:31,540 - DEBUG - send_request_body.complete
+2025-07-08 21:06:31,540 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-07-08 21:06:32,759 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Length', b'916'), (b'Content-Type', b'application/json'), (b'apim-request-id', b'97e304b2-4942-49bc-b6a6-22044449e172'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'x-content-type-options', b'nosniff'), (b'x-ms-region', b'East US'), (b'x-ratelimit-remaining-requests', b'1196'), (b'x-ratelimit-limit-requests', b'1200'), (b'x-ratelimit-remaining-tokens', b'116897'), (b'x-ratelimit-limit-tokens', b'120000'), (b'azureml-model-session', b'd125-20250621110946'), (b'cmp-upstream-response-duration', b'876'), (b'x-accel-buffering', b'no'), (b'x-ms-rai-invoked', b'true'), (b'x-request-id', b'cbeb7efe-3ebc-46a0-ab1e-6193489c602d'), (b'x-ms-deployment-name', b'gpt-4o-08-06'), (b'Date', b'Tue, 08 Jul 2025 15:36:32 GMT')])
+2025-07-08 21:06:32,763 - INFO - HTTP Request: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-07-08 21:06:32,763 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-07-08 21:06:32,763 - DEBUG - receive_response_body.complete
+2025-07-08 21:06:32,763 - DEBUG - response_closed.started
+2025-07-08 21:06:32,763 - DEBUG - response_closed.complete
+2025-07-08 21:06:32,763 - DEBUG - HTTP Response: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15 "200 OK" Headers({'content-length': '916', 'content-type': 'application/json', 'apim-request-id': '97e304b2-4942-49bc-b6a6-22044449e172', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'x-ms-region': 'East US', 'x-ratelimit-remaining-requests': '1196', 'x-ratelimit-limit-requests': '1200', 'x-ratelimit-remaining-tokens': '116897', 'x-ratelimit-limit-tokens': '120000', 'azureml-model-session': 'd125-20250621110946', 'cmp-upstream-response-duration': '876', 'x-accel-buffering': 'no', 'x-ms-rai-invoked': 'true', 'x-request-id': 'cbeb7efe-3ebc-46a0-ab1e-6193489c602d', 'x-ms-deployment-name': 'gpt-4o-08-06', 'date': 'Tue, 08 Jul 2025 15:36:32 GMT'})
+2025-07-08 21:06:32,763 - DEBUG - request_id: cbeb7efe-3ebc-46a0-ab1e-6193489c602d
+2025-07-08 21:06:32,767 - INFO - analyze_video_for_query returned: <class 'dict'>
+2025-07-08 21:06:32,767 - INFO - Result keys: dict_keys(['final_summary', 'timestamps', 'product_name'])
+2025-07-08 21:06:32,767 - INFO - Result content: {'final_summary': 'Yes, the Vim bar is present on the shelf in yellow packaging on the lower shelf.\n\nproduct_name = Vim Bar', 'timestamps': [0], 'product_name': 'Vim Bar'}...
+2025-07-08 21:06:32,767 - INFO - Processing successful result...
+2025-07-08 21:16:07,339 - INFO - Processing user input: Is vim bar present
+2025-07-08 21:16:07,342 - INFO - === IMAGE ANALYSIS START ===
+2025-07-08 21:16:07,342 - INFO - Query: Is vim bar present
+2025-07-08 21:16:07,344 - INFO - Uploaded image path: C:\Users\ashwi\AppData\Local\Temp\tmpqzqilchy.png
+2025-07-08 21:16:07,345 - INFO - File exists: True
+2025-07-08 21:16:07,345 - INFO - Image file size: 871193 bytes
+2025-07-08 21:16:07,345 - INFO - Calling analyze_video_for_query...
+2025-07-08 21:16:08,762 - DEBUG - Sending HTTP Request: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15
+2025-07-08 21:16:08,764 - DEBUG - close.started
+2025-07-08 21:16:08,764 - DEBUG - close.complete
+2025-07-08 21:16:08,764 - DEBUG - connect_tcp.started host='gpt-4o-intern.openai.azure.com' port=443 local_address=None timeout=30 socket_options=None
+2025-07-08 21:16:09,178 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001BDD7AF2540>
+2025-07-08 21:16:09,187 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001BDD7BAC6D0> server_hostname='gpt-4o-intern.openai.azure.com' timeout=30
+2025-07-08 21:16:09,667 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001BDD69CAE70>
+2025-07-08 21:16:09,683 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-07-08 21:16:09,685 - DEBUG - send_request_headers.complete
+2025-07-08 21:16:09,685 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-07-08 21:16:12,789 - DEBUG - send_request_body.complete
+2025-07-08 21:16:12,789 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-07-08 21:16:15,364 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Length', b'685'), (b'Content-Type', b'application/json; charset=utf-8'), (b'request-id', b'742903ac-9a81-4edd-813c-00707d1098ab'), (b'apim-request-id', b'742903ac-9a81-4edd-813c-00707d1098ab'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'x-content-type-options', b'nosniff'), (b'x-ms-region', b'East US'), (b'x-ratelimit-remaining-requests', b'1199'), (b'x-ratelimit-limit-requests', b'1200'), (b'x-ratelimit-remaining-tokens', b'118733'), (b'x-ratelimit-limit-tokens', b'120000'), (b'azureml-model-session', b'd122-20250514063832'), (b'cmp-upstream-response-duration', b'1376'), (b'x-accel-buffering', b'no'), (b'x-ms-rai-invoked', b'true'), (b'x-request-id', b'4fa80ecd-3ee3-4b5a-9fd7-bfecd76c8159'), (b'api-supported-versions', b'1'), (b'x-envoy-upstream-service-time', b'1772'), (b'x-ms-deployment-name', b'gpt-4o-08-06'), (b'Date', b'Tue, 08 Jul 2025 15:46:14 GMT')])
+2025-07-08 21:16:15,364 - INFO - HTTP Request: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-07-08 21:16:15,366 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-07-08 21:16:15,367 - DEBUG - receive_response_body.complete
+2025-07-08 21:16:15,367 - DEBUG - response_closed.started
+2025-07-08 21:16:15,367 - DEBUG - response_closed.complete
+2025-07-08 21:16:15,367 - DEBUG - HTTP Response: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15 "200 OK" Headers({'content-length': '685', 'content-type': 'application/json; charset=utf-8', 'request-id': '742903ac-9a81-4edd-813c-00707d1098ab', 'apim-request-id': '742903ac-9a81-4edd-813c-00707d1098ab', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'x-ms-region': 'East US', 'x-ratelimit-remaining-requests': '1199', 'x-ratelimit-limit-requests': '1200', 'x-ratelimit-remaining-tokens': '118733', 'x-ratelimit-limit-tokens': '120000', 'azureml-model-session': 'd122-20250514063832', 'cmp-upstream-response-duration': '1376', 'x-accel-buffering': 'no', 'x-ms-rai-invoked': 'true', 'x-request-id': '4fa80ecd-3ee3-4b5a-9fd7-bfecd76c8159', 'api-supported-versions': '1', 'x-envoy-upstream-service-time': '1772', 'x-ms-deployment-name': 'gpt-4o-08-06', 'date': 'Tue, 08 Jul 2025 15:46:14 GMT'})
+2025-07-08 21:16:15,367 - DEBUG - request_id: 4fa80ecd-3ee3-4b5a-9fd7-bfecd76c8159
+2025-07-08 21:16:15,390 - DEBUG - Sending HTTP Request: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15
+2025-07-08 21:16:15,390 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-07-08 21:16:15,390 - DEBUG - send_request_headers.complete
+2025-07-08 21:16:15,390 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-07-08 21:16:15,390 - DEBUG - send_request_body.complete
+2025-07-08 21:16:15,396 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-07-08 21:16:16,068 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Length', b'669'), (b'Content-Type', b'application/json'), (b'apim-request-id', b'92054538-9b56-478f-82b4-00d83b8fbef9'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'x-content-type-options', b'nosniff'), (b'x-ms-region', b'East US'), (b'x-ratelimit-remaining-requests', b'1198'), (b'x-ratelimit-limit-requests', b'1200'), (b'x-ratelimit-remaining-tokens', b'118518'), (b'x-ratelimit-limit-tokens', b'120000'), (b'azureml-model-session', b'd125-20250514150322'), (b'cmp-upstream-response-duration', b'363'), (b'x-accel-buffering', b'no'), (b'x-ms-rai-invoked', b'true'), (b'x-request-id', b'22f62401-b14b-44eb-923f-a9a85f2ba480'), (b'x-ms-deployment-name', b'gpt-4o-08-06'), (b'Date', b'Tue, 08 Jul 2025 15:46:15 GMT')])
+2025-07-08 21:16:16,068 - INFO - HTTP Request: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-07-08 21:16:16,068 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-07-08 21:16:16,068 - DEBUG - receive_response_body.complete
+2025-07-08 21:16:16,068 - DEBUG - response_closed.started
+2025-07-08 21:16:16,068 - DEBUG - response_closed.complete
+2025-07-08 21:16:16,068 - DEBUG - HTTP Response: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15 "200 OK" Headers({'content-length': '669', 'content-type': 'application/json', 'apim-request-id': '92054538-9b56-478f-82b4-00d83b8fbef9', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'x-ms-region': 'East US', 'x-ratelimit-remaining-requests': '1198', 'x-ratelimit-limit-requests': '1200', 'x-ratelimit-remaining-tokens': '118518', 'x-ratelimit-limit-tokens': '120000', 'azureml-model-session': 'd125-20250514150322', 'cmp-upstream-response-duration': '363', 'x-accel-buffering': 'no', 'x-ms-rai-invoked': 'true', 'x-request-id': '22f62401-b14b-44eb-923f-a9a85f2ba480', 'x-ms-deployment-name': 'gpt-4o-08-06', 'date': 'Tue, 08 Jul 2025 15:46:15 GMT'})
+2025-07-08 21:16:16,068 - DEBUG - request_id: 22f62401-b14b-44eb-923f-a9a85f2ba480
+2025-07-08 21:16:17,083 - DEBUG - Sending HTTP Request: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15
+2025-07-08 21:16:17,085 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-07-08 21:16:17,085 - DEBUG - send_request_headers.complete
+2025-07-08 21:16:17,085 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-07-08 21:16:27,397 - DEBUG - send_request_body.complete
+2025-07-08 21:16:27,399 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-07-08 21:16:29,567 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Length', b'680'), (b'Content-Type', b'application/json; charset=utf-8'), (b'request-id', b'283ceb6a-9a1c-4813-8f76-c9eca7067d45'), (b'apim-request-id', b'283ceb6a-9a1c-4813-8f76-c9eca7067d45'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'x-content-type-options', b'nosniff'), (b'x-ms-region', b'East US'), (b'x-ratelimit-remaining-requests', b'1197'), (b'x-ratelimit-limit-requests', b'1200'), (b'x-ratelimit-remaining-tokens', b'117260'), (b'x-ratelimit-limit-tokens', b'120000'), (b'azureml-model-session', b'd122-20250621053100'), (b'cmp-upstream-response-duration', b'1244'), (b'x-accel-buffering', b'no'), (b'x-ms-rai-invoked', b'true'), (b'x-request-id', b'cc3d4752-41d5-41de-ad85-52baa34374d8'), (b'api-supported-versions', b'1'), (b'x-envoy-upstream-service-time', b'1890'), (b'x-ms-deployment-name', b'gpt-4o-08-06'), (b'Date', b'Tue, 08 Jul 2025 15:46:28 GMT')])
+2025-07-08 21:16:29,571 - INFO - HTTP Request: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-07-08 21:16:29,571 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-07-08 21:16:29,573 - DEBUG - receive_response_body.complete
+2025-07-08 21:16:29,574 - DEBUG - response_closed.started
+2025-07-08 21:16:29,575 - DEBUG - response_closed.complete
+2025-07-08 21:16:29,575 - DEBUG - HTTP Response: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15 "200 OK" Headers({'content-length': '680', 'content-type': 'application/json; charset=utf-8', 'request-id': '283ceb6a-9a1c-4813-8f76-c9eca7067d45', 'apim-request-id': '283ceb6a-9a1c-4813-8f76-c9eca7067d45', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'x-ms-region': 'East US', 'x-ratelimit-remaining-requests': '1197', 'x-ratelimit-limit-requests': '1200', 'x-ratelimit-remaining-tokens': '117260', 'x-ratelimit-limit-tokens': '120000', 'azureml-model-session': 'd122-20250621053100', 'cmp-upstream-response-duration': '1244', 'x-accel-buffering': 'no', 'x-ms-rai-invoked': 'true', 'x-request-id': 'cc3d4752-41d5-41de-ad85-52baa34374d8', 'api-supported-versions': '1', 'x-envoy-upstream-service-time': '1890', 'x-ms-deployment-name': 'gpt-4o-08-06', 'date': 'Tue, 08 Jul 2025 15:46:28 GMT'})
+2025-07-08 21:16:29,579 - DEBUG - request_id: cc3d4752-41d5-41de-ad85-52baa34374d8
+2025-07-08 21:16:29,626 - DEBUG - Sending HTTP Request: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15
+2025-07-08 21:16:29,626 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-07-08 21:16:29,633 - DEBUG - send_request_headers.complete
+2025-07-08 21:16:29,633 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-07-08 21:16:29,635 - DEBUG - send_request_body.complete
+2025-07-08 21:16:29,635 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-07-08 21:16:30,723 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Length', b'936'), (b'Content-Type', b'application/json'), (b'apim-request-id', b'd8219d91-19bd-41cb-a9b0-445de9605d40'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'x-content-type-options', b'nosniff'), (b'x-ms-region', b'East US'), (b'x-ratelimit-remaining-requests', b'1196'), (b'x-ratelimit-limit-requests', b'1200'), (b'x-ratelimit-remaining-tokens', b'116897'), (b'x-ratelimit-limit-tokens', b'120000'), (b'azureml-model-session', b'd125-20250621110946'), (b'cmp-upstream-response-duration', b'751'), (b'x-accel-buffering', b'no'), (b'x-ms-rai-invoked', b'true'), (b'x-request-id', b'e9f7408c-9325-4ca0-ad02-4a9e4215a034'), (b'x-ms-deployment-name', b'gpt-4o-08-06'), (b'Date', b'Tue, 08 Jul 2025 15:46:30 GMT')])
+2025-07-08 21:16:30,723 - INFO - HTTP Request: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-07-08 21:16:30,723 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-07-08 21:16:30,723 - DEBUG - receive_response_body.complete
+2025-07-08 21:16:30,723 - DEBUG - response_closed.started
+2025-07-08 21:16:30,723 - DEBUG - response_closed.complete
+2025-07-08 21:16:30,732 - DEBUG - HTTP Response: POST https://gpt-4o-intern.openai.azure.com/openai/deployments/gpt-4o-08-06/chat/completions?api-version=2023-05-15 "200 OK" Headers({'content-length': '936', 'content-type': 'application/json', 'apim-request-id': 'd8219d91-19bd-41cb-a9b0-445de9605d40', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'x-ms-region': 'East US', 'x-ratelimit-remaining-requests': '1196', 'x-ratelimit-limit-requests': '1200', 'x-ratelimit-remaining-tokens': '116897', 'x-ratelimit-limit-tokens': '120000', 'azureml-model-session': 'd125-20250621110946', 'cmp-upstream-response-duration': '751', 'x-accel-buffering': 'no', 'x-ms-rai-invoked': 'true', 'x-request-id': 'e9f7408c-9325-4ca0-ad02-4a9e4215a034', 'x-ms-deployment-name': 'gpt-4o-08-06', 'date': 'Tue, 08 Jul 2025 15:46:30 GMT'})
+2025-07-08 21:16:30,732 - DEBUG - request_id: e9f7408c-9325-4ca0-ad02-4a9e4215a034
+2025-07-08 21:16:30,732 - INFO - analyze_video_for_query returned: <class 'dict'>
+2025-07-08 21:16:30,732 - INFO - Result keys: dict_keys(['final_summary', 'timestamps', 'product_name'])
+2025-07-08 21:16:30,732 - INFO - Result content: {'final_summary': 'Yes, the Vim bar is present on the shelf in yellow packaging on the lower shelf.\n\nproduct_name = Vim Bar', 'timestamps': [0], 'product_name': 'Vim Bar'}...
+2025-07-08 21:16:30,737 - INFO - Processing successful result...

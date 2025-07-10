@@ -1,0 +1,22 @@
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://localhost:8501
+
+
+--- Evaluation Summary ---
+Accuracy Score (0–100)%: 100%
+
+Evaluation Summary: The generated summary accurately reflects the information provided in the supporting frame. It correctly states that the Vim bar is present on the shelf in yellow packaging on the lower shelf, which is supported by the frame response. There are no inaccuracies or missing information in the summary.
+[🛍️ Extracted Product Name]: Vim Bar
+[🧪 Triggering SerpAPI with product: Vim Bar]
+[🧪 Triggering SerpAPI with product: Vim Bar]
+[🧪 Triggering SerpAPI with product: Vim Bar]
+[🧪 Triggering SerpAPI with product: Vim Bar]
+[🧪 Triggering SerpAPI with product: Vim Bar]
+[🧪 Triggering SerpAPI with product: Vim Bar]
+[🛡 SERPAPI KEY]: 27f976da3d0e63206d31173e361fc7e5520d513819abf08914774c7c5f13475c
+[🔎 SerpAPI] Searching for: Vim Bar
+[📦 SerpAPI Response Status]: Received data for Vim Bar
+[✅ Quantity Filter] Found 9 products matching 1 piece
+  Stopping...

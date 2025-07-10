@@ -1,0 +1,25 @@
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://localhost:8501
+
+
+--- Evaluation Summary ---
+Accuracy Score (0–100)%: 100%
+
+Evaluation Summary: The generated summary accurately reflects the information provided in the supporting frame. It correctly states that there are no Tide detergent products visible on the shelves and mentions the presence of other brands like Vim, Giffy, and Pril, which is consistent with the details from the frame response. There are no inaccuracies or unsupported claims in the summary.
+[🛍️ Extracted Product Name]: Tide detergent
+[🧪 Triggering SerpAPI with product: Tide detergent]
+[🧪 Triggering SerpAPI with product: Tide detergent]
+[🧪 Triggering SerpAPI with product: Tide detergent]
+[🧪 Triggering SerpAPI with product: Tide detergent]
+[🧪 Triggering SerpAPI with product: Tide detergent]
+[🔍 Enhanced Scraper] Searching for: Tide detergent
+[✅ API Success] Found 40 raw results
+[📦 Processed] 40 valid products extracted
+[🎯 Quantity Filter] 2 products match 250ml
+[🔍 Enhanced Scraper] Searching for: Tide detergent
+[✅ API Success] Found 40 raw results
+[📦 Processed] 40 valid products extracted
+[🎯 Quantity Filter] 2 products match 250ml
+  Stopping...

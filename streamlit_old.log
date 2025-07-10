@@ -1,0 +1,28 @@
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://localhost:8506
+
+
+--- Evaluation Summary ---
+Accuracy Score (0–100)%: 100%
+
+Evaluation Summary: The generated summary is fully accurate and supported by the provided frame. It correctly states that Vim bars are visible on the bottom shelf and are packaged in yellow boxes, which aligns with the information given in the frame. There are no inaccuracies or missing details relevant to the user's question.
+[🛍️ Extracted Product Name]: Vim Bar
+[🧪 Triggering SerpAPI with product: Vim Bar]
+[🧪 Triggering SerpAPI with product: Vim Bar]
+[🧪 Triggering SerpAPI with product: Vim Bar]
+[🔍 Enhanced Scraper] Searching for: Vim Bar
+[✅ API Success] Found 40 raw results
+[📦 Processed] 40 valid products extracted
+[🎯 Quantity Filter] 5 products match 75g
+[✅ Enhanced Links] Updated 5 products with direct retailer URLs
+[🔍 Enhanced Scraper] Searching for: Vim Bar
+[✅ API Success] Found 40 raw results
+[📦 Processed] 40 valid products extracted
+[🎯 Quantity Filter] 5 products match 75g
+[✅ Enhanced Links] Updated 5 products with direct retailer URLs
+  Stopping...
